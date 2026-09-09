@@ -1,0 +1,10 @@
+List
+- Construct, destruct, clear, fill
+- insert, remove (push,pop)
+- find, countElement
+- reverse
+- swap, replace
+- merge, split
+- getSize, isEmpty
+- access, retrieve
+- traverse
