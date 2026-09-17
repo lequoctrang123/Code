@@ -60,7 +60,9 @@ public:
         }
     }
     void fill(const T& val){
-        //todo
+        for(T *p=pD, *pE=pD+nE; p!=pE; ++p){
+            *p=val;
+        }
     } 
     void resize(int n){             //cap phat theo block
         int newN = (N + ARRLIST_BLOCK_SIZE - 1)/ ARRLIST_BLOCK_SIZE*ARRLIST_BLOCK_SIZE;
