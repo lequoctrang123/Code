@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "list.cpp"
 using namespace std;
 #include "list"
 int main(){
@@ -9,5 +10,5 @@ int main(){
     for(int i=0; i<n; ++i){
         pL->insert(rand()%100, i);
     }
-    pL->traserve([](int &val){cout<<setw(5)<<val<<", ";}); cout<<"\n";
+    pL->traverse([](int &val){cout<<setw(5)<<val<<", ";}); cout<<"\n";
 }
